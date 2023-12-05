@@ -1,0 +1,112 @@
+{
+    "frames": [
+        {
+            "filename": "warrior_run_1",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "warrior_run_2",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 0,
+                "y": 44
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "warrior_run_3",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 64,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "warrior_run_4",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 64,
+                "y": 44
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "warrior_run_5",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 0,
+                "y": 88
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "warrior_run_6",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 64,
+                "y": 88
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "warrior_run_7",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 128,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "warrior_run_8",
+            "frame": {
+                "w": 64,
+                "h": 44,
+                "x": 128,
+                "y": 44
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

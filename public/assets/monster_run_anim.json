@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "walk_anim",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "monster_run",
+                    "frame": "big_demon_run_anim_f0"
+                },
+                {
+                    "key": "monster_run",
+                    "frame": "big_demon_run_anim_f1"
+                },
+                {
+                    "key": "monster_run",
+                    "frame": "big_demon_run_anim_f2"
+                },
+                {
+                    "key": "monster_run",
+                    "frame": "big_demon_run_anim_f3"
+                }
+            ]
+        }
+    ]
+}

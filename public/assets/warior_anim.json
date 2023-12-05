@@ -1,0 +1,68 @@
+{
+    "anims": [
+        {
+            "key": "warior-run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 15,
+            "frames": [
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_1"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_1"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_2"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_2"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_3"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_3"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_5"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_5"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_6"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_6"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_7"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_7"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_8"
+                },
+                {
+                    "key": "warior",
+                    "frame": "warrior_run_8"
+                }
+            ]
+        }
+    ]
+}
