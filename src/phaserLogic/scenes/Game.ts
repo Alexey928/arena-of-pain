@@ -100,12 +100,17 @@ export default class Game extends Phaser.Scene {
     handleWarriorAndWallsColliasion(object1:Phaser.GameObjects.GameObject|Tile,object2:Phaser.GameObjects.GameObject|Tile){
         console.log("hit tuu wall");
         this.fireBalls.killAndHide(object1 as Phaser.GameObjects.GameObject);
+        this.fireBalls.clear(true,true);
     }
     handleWariorAndKnifeCollision(object1:Phaser.GameObjects.GameObject|Tile,object2:Phaser.GameObjects.GameObject|Tile){
         console.log("Hit!!");
+        //this.fireBalls.killAndHide(object1 as Phaser.GameObjects.GameObject);
+        object2.destroy(true);
+        this.fireBalls.children.entries.forEach((e)=>{
+            e.destroy(true)
+        })
+        //this.fireBalls.clear(true,true)
 
-        object2.destroy(true)
-        this.fireBalls.killAndHide(object1 as Phaser.GameObjects.GameObject);
     }
     handleWariorAndMonsterColision(object1: Phaser.GameObjects.GameObject | Tile,
                                    object2: Phaser.GameObjects.GameObject | Tile,) {
