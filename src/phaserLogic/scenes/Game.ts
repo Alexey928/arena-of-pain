@@ -7,7 +7,6 @@ import {Monster} from "../Units/Monster";
 import {HelthUi} from "../UI_Scenes/uiHelth";
 import {debugColiders} from "../utils/utils";
 import {SceneEvents} from "../eventEmiter/EventEmiter"
-
 export default class Game extends Phaser.Scene {
     private hit: number = 0// indicator of hitting
     private monster!: Monster;
@@ -27,7 +26,6 @@ export default class Game extends Phaser.Scene {
     }
 
     create() {
-
         this.scene.run("helthUi");
         this.helthUI = this.scene.get("helthUi") as HelthUi;
         //creating our map from assets and addet layer from our scene
@@ -49,12 +47,13 @@ export default class Game extends Phaser.Scene {
         this.fireBalls = this.physics.add.group({
             classType: Phaser.Physics.Arcade.Image
         })
+
+
         this.warrior = this.physics.add.group({// when wee nidet multiply some game object, wee use groop
             classType: Warrior,
             createCallback: (go) => {
                 const warriorGo = go as Warrior;
                 warriorGo.body?.setSize(30, 30, true);
-
                 if (warriorGo.body) {
                     warriorGo.body.onCollide = true;
                 }
